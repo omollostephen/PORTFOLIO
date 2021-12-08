@@ -1,0 +1,38 @@
+body{
+    background: crimson;
+    margin: 0;
+}
+.container{
+    position: relative;
+    width: 700px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+}
+.box{
+    position: absolute;
+    width: 50%;
+    height: 70%;
+    margin:auto;
+    background: #fff;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 45px rgba(0,0, 0, 0.25);
+}
+#pass{
+    padding: 5px 10px;
+}
+#uname{
+    padding: 5px 10px;
+}
+#sub{
+    padding: 5px 10px;
+}

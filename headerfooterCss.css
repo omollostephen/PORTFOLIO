@@ -1,0 +1,183 @@
+body{
+    background-color:cadetblue;
+    
+}
+header, footer{
+    background-color: black;
+    position:absolute;
+    width: 100%;
+    color: white;
+}
+header h2{
+    position: absolute;
+    margin-top: 20px;
+    left :20%;
+}
+header{
+    height: 10vh;
+}
+footer{
+    height: 20vh;
+    bottom: 0;
+    margin-bottom: 0;
+}
+footer h2{
+    position:absolute;
+    left: 45%;
+    
+}
+.nav{
+    position: absolute;
+    width: 100%;
+}
+.nav a{
+    position: relative;
+    left:45%;
+    top: 20px;
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+footer p{
+    position: absolute;
+    color: yellowgreen;
+    left: 48%;
+    bottom: 10px;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    margin-top: 50%;
+}
+/*copied*/
+body{
+    background-image: url('images/bg3.jpg');
+    display: flex;
+
+}
+.links{
+    justify-content: space-between;
+    height: 10vh;
+    background: rebeccapurple;
+    display: flex;
+    padding: 20px;
+}
+.left-side img{
+    margin-left: 0x;
+    width: 100px;
+    height: 60px;
+}
+.right-side a{
+    color: #fff;
+    
+    text-decoration: none;
+    position: relative;
+    padding: 20px;
+    font-weight: 500;
+    font-family: sans-serif;
+    
+    
+}
+.right-side a:hover{
+    color: blue;
+    border-bottom: 1px solid;
+}
+.infoContent-items{
+    top: 45px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.infoContent-item img{
+    margin-top: 70px;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height:350px;
+    border-radius: 10px;
+}
+.content{
+    color: chartreuse;
+}
+
+.developer{
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.developer h2{
+    
+    text-decoration: underline;
+    padding-left: 45%;
+    text-transform: capitalize;
+    color:crimson;
+}
+.whoisme{
+    padding-left: 35%;
+    color: white;
+}
+.myImg{
+    padding-left: 40%;
+}
+.myImg img{
+    
+    width: 300px;
+    border-radius: 100%;
+} 
+#info{
+    padding-right: 45%;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+ul{
+    font-family: sans-serif;
+    font-weight: 500;
+
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30%;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  /*Youtube*/
+  .fa-youtube {
+    background: #ad2a02;
+    color: white;
+  }
+  /*linkedin*/
+  .fa-linkedin {
+    background: #ad2a02;
+    color: white;
+  }
+  /*instagram*/
+  .fa-instagram {
+    background: #ad2a02;
+    color: white;
+  }
